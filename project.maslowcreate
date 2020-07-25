@@ -21,10 +21,23 @@
             ]
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.6834295136026382,
+            "y": 0.3993993993993994,
+            "uniqueID": 407007,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5803792250618303,
-            "y": 0.5105105105105106,
+            "x": 0.5383347073371805,
+            "y": 0.6726726726726727,
             "uniqueID": 820772,
             "ioValues": [
                 {
@@ -53,7 +66,14 @@
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
-            "ap1ID": 820772
+            "ap1ID": 407007
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 820772,
+            "ap2ID": 407007
         }
     ],
     "fileTypeVersion": 1,
