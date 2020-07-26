@@ -50,6 +50,14 @@
             ]
         },
         {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.359781121751026,
+            "y": 0.47747747747747743,
+            "uniqueID": 954565,
+            "ioValues": []
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.45424567188788134,
@@ -61,6 +69,14 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.38235294117647056,
+            "y": 0.6756756756756757,
+            "uniqueID": 850021,
+            "ioValues": []
         },
         {
             "atomType": "Assembly",
