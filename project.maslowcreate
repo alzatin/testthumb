@@ -8,10 +8,23 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.45424567188788134,
+            "y": 0.4234234234234234,
+            "uniqueID": 350429,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.19574119574119575,
-            "y": 0.5885885885885885,
+            "x": 0.2018819503849444,
+            "y": 0.5945945945945946,
             "uniqueID": 815139,
             "ioValues": [
                 {
@@ -24,19 +37,6 @@
                 }
             ],
             "currentEquation": "x + y + x"
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.45424567188788134,
-            "y": 0.4234234234234234,
-            "uniqueID": 350429,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Rectangle",
@@ -91,18 +91,18 @@
     ],
     "allConnectors": [
         {
-            "ap1Name": "result",
-            "ap2Name": "x length",
-            "ap2Primary": false,
-            "ap1ID": 815139,
-            "ap2ID": 864741
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 350429,
             "ap2ID": 820772
+        },
+        {
+            "ap1Name": "result",
+            "ap2Name": "x length",
+            "ap2Primary": false,
+            "ap1ID": 815139,
+            "ap2ID": 864741
         },
         {
             "ap1Name": "geometry",
