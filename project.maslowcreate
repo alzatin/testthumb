@@ -8,13 +8,20 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.2496580027359781,
-            "y": 0.48048048048048053,
-            "uniqueID": 428979,
+            "atomType": "Add-BOM-Tag",
+            "name": "Add BOM Tag",
+            "x": 0.3180574555403557,
+            "y": 0.5195195195195196,
+            "uniqueID": 112960,
             "ioValues": [],
-            "selectedColorIndex": 0
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
         },
         {
             "atomType": "Circle",
