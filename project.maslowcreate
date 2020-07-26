@@ -23,35 +23,31 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.20017108639863132,
-            "y": 0.5915915915915916,
+            "x": 0.19645390070921984,
+            "y": 0.6036036036036037,
             "uniqueID": 815139,
             "ioValues": [
                 {
                     "name": "x",
                     "ioValue": 2
-                },
-                {
-                    "name": "y",
-                    "ioValue": 1
                 }
             ],
-            "currentEquation": "x + y + x"
+            "currentEquation": "x + x + x"
         },
         {
             "atomType": "Rectangle",
             "name": "Rectangle",
-            "x": 0.3325143325143325,
-            "y": 0.6096096096096095,
+            "x": 0.3333333333333333,
+            "y": 0.6156156156156156,
             "uniqueID": 864741,
             "ioValues": [
                 {
                     "name": "x length",
-                    "ioValue": 5
+                    "ioValue": 6
                 },
                 {
                     "name": "y length",
-                    "ioValue": 5
+                    "ioValue": 6
                 }
             ]
         },
