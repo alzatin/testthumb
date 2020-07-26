@@ -8,6 +8,15 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.2496580027359781,
+            "y": 0.48048048048048053,
+            "uniqueID": 428979,
+            "ioValues": [],
+            "selectedColorIndex": 0
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.45424567188788134,
