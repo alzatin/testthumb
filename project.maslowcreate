@@ -8,54 +8,26 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.23119015047879618,
-            "y": 0.3003003003003003,
-            "uniqueID": 635190,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "name",
-                "numberNeeded": 1,
-                "costUSD": 0,
-                "source": "www.example.com",
-                "totalNeeded": 1,
-                "radius": 0.015384615384615385
-            }
-        },
-        {
-            "atomType": "CutList",
-            "name": "Add To Cutlist",
-            "x": 0.23255813953488372,
-            "y": 0.4234234234234234,
-            "uniqueID": 759188,
+            "atomType": "Equation",
+            "name": "Equation",
+            "x": 0.179890560875513,
+            "y": 0.3513513513513513,
+            "uniqueID": 298032,
             "ioValues": [
                 {
-                    "name": "geometry",
-                    "ioValue": ""
-                }
-            ]
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.23050615595075238,
-            "y": 0.5435435435435435,
-            "uniqueID": 494450,
-            "ioValues": [
+                    "name": "x",
+                    "ioValue": 5
+                },
                 {
-                    "name": "tag",
-                    "ioValue": "Tag String"
+                    "name": "y",
+                    "ioValue": 2
+                },
+                {
+                    "name": "z",
+                    "ioValue": 1
                 }
-            ]
-        },
-        {
-            "atomType": "Stl",
-            "name": "Stl",
-            "x": 0.359781121751026,
-            "y": 0.47747747747747743,
-            "uniqueID": 954565,
-            "ioValues": []
+            ],
+            "currentEquation": "x + x + z + y"
         },
         {
             "atomType": "Circle",
@@ -71,12 +43,21 @@
             ]
         },
         {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.38235294117647056,
-            "y": 0.6756756756756757,
-            "uniqueID": 850021,
-            "ioValues": []
+            "atomType": "Rectangle",
+            "name": "Rectangle",
+            "x": 0.3255813953488372,
+            "y": 0.5795795795795796,
+            "uniqueID": 864741,
+            "ioValues": [
+                {
+                    "name": "x length",
+                    "ioValue": 10
+                },
+                {
+                    "name": "y length",
+                    "ioValue": 5
+                }
+            ]
         },
         {
             "atomType": "Assembly",
