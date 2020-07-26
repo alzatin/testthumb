@@ -8,6 +8,48 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Add BOM Tag",
+            "name": "Add BOM Tag",
+            "x": 0.23119015047879618,
+            "y": 0.3003003003003003,
+            "uniqueID": 635190,
+            "ioValues": [],
+            "BOMitem": {
+                "BOMitemName": "name",
+                "numberNeeded": 1,
+                "costUSD": 0,
+                "source": "www.example.com",
+                "totalNeeded": 1,
+                "radius": 0.015384615384615385
+            }
+        },
+        {
+            "atomType": "CutList",
+            "name": "Add To Cutlist",
+            "x": 0.23255813953488372,
+            "y": 0.4234234234234234,
+            "uniqueID": 759188,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": ""
+                }
+            ]
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.23050615595075238,
+            "y": 0.5435435435435435,
+            "uniqueID": 494450,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "Tag String"
+                }
+            ]
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
             "x": 0.45424567188788134,
