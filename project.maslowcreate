@@ -10,24 +10,16 @@
         {
             "atomType": "Equation",
             "name": "Equation",
-            "x": 0.179890560875513,
-            "y": 0.3513513513513513,
-            "uniqueID": 298032,
+            "x": 0.22358722358722358,
+            "y": 0.5165165165165165,
+            "uniqueID": 815139,
             "ioValues": [
                 {
                     "name": "x",
-                    "ioValue": 5
-                },
-                {
-                    "name": "y",
-                    "ioValue": 2
-                },
-                {
-                    "name": "z",
                     "ioValue": 1
                 }
             ],
-            "currentEquation": "x + x + z + y"
+            "currentEquation": "x + x"
         },
         {
             "atomType": "Circle",
