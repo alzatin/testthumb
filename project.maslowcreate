@@ -4,9 +4,22 @@
     "x": 0,
     "y": 0,
     "uniqueID": 237520,
-    "ioValues": [],
+    "ioValues": [
+        {
+            "name": "Input470654",
+            "ioValue": 10
+        }
+    ],
     "topLevel": true,
     "allAtoms": [
+        {
+            "atomType": "Input",
+            "name": "Input470654",
+            "x": 0.013333333333333334,
+            "y": 0.32577903682719545,
+            "uniqueID": 622395,
+            "ioValues": []
+        },
         {
             "atomType": "Circle",
             "name": "Circle",
@@ -86,6 +99,13 @@
         }
     ],
     "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "diameter",
+            "ap2Primary": false,
+            "ap1ID": 622395,
+            "ap2ID": 350429
+        },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
